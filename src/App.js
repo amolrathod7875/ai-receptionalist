@@ -3,7 +3,7 @@ import Vapi from "@vapi-ai/web";
 import { Mic, X, Loader2 } from "lucide-react";
 
 // ⚠️ YOUR KEYS HERE
-const vapi = new Vapi(""); 
+const vapi = new Vapi(process.env.REACT_APP_VAPI_API_KEY); 
 const assistantId = "750f2df2-82ea-471b-9ab9-f99eee335e9f";
 
 const App = () => {
